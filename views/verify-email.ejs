@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verification</title>
+  </head>
+  <body class="container px-5 py-3">
+    <h1>Email Verification</h1>
+    <form action="/verify-email" method="GET" class="form-group">
+      <label for="token">Enter your verification token:</label>
+      <input type="text" id="token" name="token" required /><br /><br />
+
+      <button type="submit">Verify Email</button>
+    </form>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
